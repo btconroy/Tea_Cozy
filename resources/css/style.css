@@ -1,0 +1,140 @@
+body {
+  background-color: black;
+  font-family: Helvetica;
+  color: seashell;
+  opacity: 0.9;
+  font-size: 22px;
+  margin-top: 70px;
+}
+
+.utility {
+  display: flex;
+  position: fixed;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  height: 69px;
+  top: 0px;
+}
+
+.utility img{
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-right: 800px;
+}
+
+nav {
+  padding-top: 20px;
+
+}
+
+nav span{
+  padding-right: 10px;
+  text-decoration: underline;
+}
+
+.content {
+  text-align: center;
+}
+
+.mission {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+  padding: 69px 0px 30px 0px;
+  margin: 0px 80px 100px 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 22px;
+
+}
+
+.mission h2, h4 {
+  background-color: black;
+  margin: 0px;
+  width: 1200px;
+  height: 69px;
+}
+
+.mission h2 {
+  padding-top: 10px;
+}
+
+.mission h4 {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+
+.month {
+  width: 1000px;
+  margin: 0px 180px;
+  text-align: center;
+}
+
+.mcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cont img {
+  height: 200px;
+  width: 300px;
+  padding-bottom: 0px;
+}
+
+.cont {
+padding: 5px 15px;
+}
+
+.location {
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+height: 570px;
+width: 1200px;
+margin: 0px 80px;
+}
+
+.location h2 {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+.container {
+  display: flex;
+  /*align-items: center;*/
+  justify-content: space-around;
+
+}
+
+.box {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  /*margin: 15px 40px;*/
+  display: block;
+  /*align-items: center;*/
+  opacity: 1;
+}
+
+.box ul {
+  list-style-type: none;
+  padding: 0;
+  align-self: center;
+}
+
+.box li {
+  padding: 20px 0px;
+  margin:
+}
+
+.bottom {
+  text-align: center;
+  height: 200px;
+}
+
+footer p {
+  padding-left: 20px;
+}
